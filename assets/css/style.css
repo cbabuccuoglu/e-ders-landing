@@ -105,13 +105,14 @@ A. Basic Styling
     #mobile-hero {
         display: none;
     }
+
+    @media screen and (max-width: 768px) {
+        #desktop-hero {display:none;}
+        #mobile-hero {display:block;}
+    }
 }
 /*end extra styling for mobile and desktop*/
 
-@media screen and (max-width: 768px) {
-    #desktop-hero {display:none;}
-    #mobile-hero {display:block;}
-    
 body {
     color: #191919;
     font-family: 'Poppins', sans-serif;
