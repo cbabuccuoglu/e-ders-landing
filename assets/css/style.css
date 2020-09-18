@@ -86,6 +86,32 @@ A. Basic Styling
   -- Styling - Colors, Font Size, Font Family
 -------------------------------------------*/
 
+/*extra styling for mobile and desktop*/
+#desktop-logo {
+    display: block;
+}
+    #mobile-logo {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        #desktop-logo {display:none;}
+        #mobile-logo {display:block;}
+    }
+
+    #desktop-hero {
+        display: block;
+    }
+    #mobile-hero {
+        display: none;
+    }
+}
+/*end extra styling for mobile and desktop*/
+
+@media screen and (max-width: 768px) {
+    #desktop-hero {display:none;}
+    #mobile-hero {display:block;}
+    
 body {
     color: #191919;
     font-family: 'Poppins', sans-serif;
