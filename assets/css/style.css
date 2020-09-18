@@ -161,14 +161,13 @@ B. Helpers
 /*-------------------------------------------
   -- Animations
 -------------------------------------------*/
-
+/*
 [data-animate] {
-    /*
   opacity: 0;
   animation-fill-mode: forwards;
   animation-duration: 1s;
-  */
 }
+*/
 
 /* Fade In Up */
 
@@ -755,15 +754,19 @@ p {
     font-size: .8125rem !important;
 }
 
+/*
 .ts-xs-text-center {
 }
+*/
 
 /*-------------------------------------------
   -- Title
 -------------------------------------------*/
 
+/*
 .ts-title {
 }
+*/
 
 .ts-title h5 {
     font-weight: normal;
@@ -1285,8 +1288,10 @@ blockquote h6 {
     border: none;
 }
 
+/*
 .ts-card__image {
 }
+*/
 
 /*-------------------------------------------
   -- Circle
@@ -1440,8 +1445,10 @@ hr {
     flex: 1 1 auto;
 }
 
+/*
 .ts-item-footer {
 }
+*/
 
 /*-------------------------------------------
   -- List
@@ -2008,9 +2015,11 @@ E. Template Specific Elements
     width: .75rem;
 }
 
+/*
 .ts-time-line__horizontal .ts-time-line__item .ts-box {
-    /*triangle*/
+    triangle
 }
+*/
 
 .ts-time-line__horizontal .ts-time-line__item .ts-box:after {
     border-color: #fff transparent transparent transparent;
